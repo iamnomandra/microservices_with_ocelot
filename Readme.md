@@ -95,6 +95,13 @@ await app.UseOcelot();
   `GET http://localhost:7071/gateway/products/find{id}` - Retrieves product from id
   `POST http://localhost:7071/gateway/users/login` - Authenticate users
   ```
+## Screenshot:
+
+`Endpoint Get Products`</br>
+<img src="https://github.com/iamnomandra/microservices_with_ocelot/blob/master/Screenshot%202025-05-13%20005442.png" width="800">  
+`Endpoint Login User`</br>
+<img src="https://github.com/iamnomandra/microservices_with_ocelot/blob/master/Screenshot%202025-05-13%20005421.png" width="800">  
+
 ## License:
  - MIT License
   
