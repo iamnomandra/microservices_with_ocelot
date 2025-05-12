@@ -5,7 +5,7 @@ Ocelot is a .NET API Gateway designed for microservices or service-oriented arch
 ## Installation:
 
 **Install Ocelot via NuGet**: `Install-Package Ocelot` </br>
-Add Ocelot to the service configuration in `Program.cs`
+- Add Ocelot to the service configuration in `Program.cs`
 
 ```csharp
 builder.Services.AddOcelot(builder.Configuration);
@@ -18,8 +18,8 @@ builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange
 await app.UseOcelot();
 ```
 
-**Ocelot json**:</br>
-Create ocelot.json in root directory
+**Ocelot json**: `ocelot.json`</br>
+- Create ocelot.json in root directory
 
 ```json
 {
@@ -45,7 +45,7 @@ Create ocelot.json in root directory
 
 **Options for Ocelot**: `Install-Package Ocelot.Cache.CacheManager`
 
-`EnableRateLimiting for restrict api call limit 3 within 10 sec.`
+- EnableRateLimiting for restrict api call limit 3 within 10 sec.
 
 ```json
   "RateLimitOptions": {
