@@ -67,7 +67,7 @@ await app.UseOcelot();
   }
 ```
 
-## Setup:
+**Setup**:
 
 - Clone the repository
 
@@ -86,7 +86,7 @@ await app.UseOcelot();
   2. Check `Multiple Startup Projects`
   3. Set `Action` all project `Start`
 
-## Demo:
+**Demo**:
 
 - Test the API using Postman:
 
