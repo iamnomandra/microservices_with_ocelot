@@ -2,6 +2,10 @@
 
 Ocelot is a .NET API Gateway designed for microservices or service-oriented architectures, providing a unified entry point for systems using HTTP(S). It integrates seamlessly with ASP.NET Core and supports platforms compatible with it.
 
+## Features:
+- Dynamic routing via Ocelot 
+- Scalable microservices (Product)
+
 ## Installation:
 
 **Install Ocelot via NuGet**: `Install-Package Ocelot` </br>
