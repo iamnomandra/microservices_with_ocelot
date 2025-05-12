@@ -1,0 +1,16 @@
+@ProductsAPI_HostAddress = https://localhost:5188
+
+GET {{ProductsAPI_HostAddress}}/api/product/
+Accept: application/json
+ 
+
+###
+@id=1
+GET {{ProductsAPI_HostAddress}}/productversion/{{id}}
+
+###
+
+@id=1
+GET {{ProductsAPI_HostAddress}}/api/product/productversion/{{id}}
+
+###
