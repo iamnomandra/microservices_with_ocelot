@@ -65,8 +65,8 @@ await app.UseOcelot();
 ```
 
 ## Run:
-- Go Run ▶ and with help dropdown ▼ click `Configure Startup Projects...`
+- Go Run `►` and with help dropdown `▼` click `Configure Startup Projects...`
 - Check `Multiple Startup Projects`
-- Select `Action` all project `Start`
+- Set `Action` all project `Start`
 
 For the full README content, including setup instructions, advanced configurations, and contribution guidelines, visit the repository directly at https://github.com/ThreeMammals/Ocelot.
