@@ -56,4 +56,10 @@ await app.UseOcelot();
   }
 ```
 
+## Setup:
+- Clone the repo: `git clone https://github.com/iamnomandra/microservices_with_ocelot`
+- Restore packages: `dotnet restore`
+- Configure `ocelot.json` for routing
+- Run: `docker-compose up` or `dotnet run`
+   
 For the full README content, including setup instructions, advanced configurations, and contribution guidelines, visit the repository directly at https://github.com/ThreeMammals/Ocelot.
