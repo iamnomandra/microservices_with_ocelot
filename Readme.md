@@ -60,6 +60,9 @@ await app.UseOcelot();
   }
 ```
 
+## Architecture:
+![Microservices Architecture](https://github.com/user-attachments/assets/4763b5a7-4119-46d9-961e-1af5390ed716)
+
 ## Setup:
 - Clone the repo: `git clone https://github.com/iamnomandra/microservices_with_ocelot`
 - Restore packages: `dotnet restore`
