@@ -1,0 +1,11 @@
+@AuthServices_HostAddress = https://localhost:7132
+ 
+POST {{AuthServices_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  //UserModel
+}
+
+###
+ 

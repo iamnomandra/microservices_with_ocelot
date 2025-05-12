@@ -5,7 +5,7 @@
   "Routes": [
     {
       "UpstreamPathTemplate": "/gateway/products",
-      "UpstreamHttpMethod": [ "GET"],
+      "UpstreamHttpMethod": [ "GET" ],
       "DownstreamPathTemplate": "/api/products",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -25,7 +25,7 @@
     },
     {
       "UpstreamPathTemplate": "/gateway/products/find/{id}",
-      "UpstreamHttpMethod": [ "GET", "DELETE"],
+      "UpstreamHttpMethod": [ "GET", "DELETE" ],
       "DownstreamPathTemplate": "/api/products/find/{id}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -41,7 +41,19 @@
         "PeriodTimespan": 10
       },
       "DangerousAcceptAnyServerCertificateValidator": true
-
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/users/login",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/users/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7132
+        }
+      ], 
+      "DangerousAcceptAnyServerCertificateValidator": true
     }
 
   ]

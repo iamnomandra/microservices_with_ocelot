@@ -2,6 +2,14 @@
 
 Ocelot is a .NET API Gateway designed for microservices or service-oriented architectures, providing a unified entry point for systems using HTTP(S). It integrates seamlessly with ASP.NET Core and supports platforms compatible with it.
 
+## Features:
+- Dynamic routing via Ocelot 
+- Scalable microservices (Product)
+
+
+## Architecture:
+![Microservices Architecture](https://github.com/user-attachments/assets/4763b5a7-4119-46d9-961e-1af5390ed716)
+
 ## Installation:
 
 **Install Ocelot via NuGet**: `Install-Package Ocelot` </br>
@@ -56,4 +64,10 @@ await app.UseOcelot();
   }
 ```
 
+## Setup:
+- Clone the repo: `git clone https://github.com/iamnomandra/microservices_with_ocelot`
+- Restore packages: `dotnet restore`
+- Configure `ocelot.json` for routing
+- Run: `docker-compose up` or `dotnet run`
+   
 For the full README content, including setup instructions, advanced configurations, and contribution guidelines, visit the repository directly at https://github.com/ThreeMammals/Ocelot.
