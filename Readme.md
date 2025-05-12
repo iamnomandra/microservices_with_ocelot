@@ -18,7 +18,8 @@ builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange
 await app.UseOcelot();
 ```
 
-**Create ocelot.json**:
+**Ocelot json**:</br>
+Create ocelot.json in root directory
 
 ```json
 {
