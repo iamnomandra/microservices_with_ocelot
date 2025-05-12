@@ -2,7 +2,6 @@
  
 POST {{AuthServices_HostAddress}}/api/users
 Content-Type: application/json
-
 {
   //UserModel
 }
