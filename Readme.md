@@ -9,7 +9,7 @@ Ocelot is a .NET API Gateway designed for microservices or service-oriented arch
 
 ## Architecture:
 
-![Microservices Architecture](https://github.com/user-attachments/assets/4763b5a7-4119-46d9-961e-1af5390ed716)
+![Microservices Architecture](https://github.com/user-attachments/assets/9eb03876-b2bd-4ca6-9fc3-15d4a2131bb3)
 
 ## Installation & Configuration:
 
