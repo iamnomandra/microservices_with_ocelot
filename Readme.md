@@ -6,6 +6,10 @@ Ocelot is a .NET API Gateway designed for microservices or service-oriented arch
 - Dynamic routing via Ocelot 
 - Scalable microservices (Product)
 
+
+## Architecture:
+![Microservices Architecture](https://github.com/user-attachments/assets/4763b5a7-4119-46d9-961e-1af5390ed716)
+
 ## Installation:
 
 **Install Ocelot via NuGet**: `Install-Package Ocelot` </br>
@@ -59,9 +63,6 @@ await app.UseOcelot();
     "PeriodTimespan": 10
   }
 ```
-
-## Architecture:
-![Microservices Architecture](https://github.com/user-attachments/assets/4763b5a7-4119-46d9-961e-1af5390ed716)
 
 ## Setup:
 - Clone the repo: `git clone https://github.com/iamnomandra/microservices_with_ocelot`
